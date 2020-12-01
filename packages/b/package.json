@@ -1,0 +1,9 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "main": "src/another.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "3.0.0"
+  }
+}

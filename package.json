@@ -1,0 +1,26 @@
+{
+  "name": "tlvince-sandbox-webpack-duplicates",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "inspectpack": "4.5.2",
+    "webpack": "4.44.2",
+    "webpack-bundle-analyzer": "4.2.0",
+    "webpack-cli": "4.2.0",
+    "webpack-stats-duplicates": "2.1.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/a",
+      "**/b"
+    ]
+  }
+}
